@@ -16,7 +16,7 @@ namespace Avalonia.TextDisplay
             {
                 return (Control)Activator.CreateInstance(type)!;
             }
-            
+
             return new TextBlock { Text = "Not Found: " + name };
         }
 
